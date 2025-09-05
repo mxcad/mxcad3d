@@ -3,8 +3,6 @@ import DefaultTheme from "vitepress/theme";
 import { vuePlugin, addImportMap } from "vitepress-demo-editor";
 import "vitepress-demo-editor/dist/style.css";
 //  @ts-ignore
-import mxdrawType from "mxdraw/dist/mxdraw.d.ts?raw";
-//  @ts-ignore
 import mxcadType from "../../../dist/mxcad3d.d.ts?raw";
 
 import "./style/index.css";
@@ -39,20 +37,11 @@ export default {
       onMonacoCreated(monaco) {
         monaco.languages.typescript.typescriptDefaults.addExtraLib(
           `
-          declare module 'mxdraw' { 
-            ${mxdrawType} 
-          }
-          `,
-          "mxdraw"
-        );
-
-        monaco.languages.typescript.typescriptDefaults.addExtraLib(
-          `
-          declare module 'mxcad' { 
+          declare module 'mxcad3d' { 
             ${mxcadType} 
           }
           `,
-          "mxcad"
+          "mxcad3d"
         );
       }, // monaco 创建成功时触发
     });

@@ -7,7 +7,7 @@ mxcad_3d API 文档
 **`Example`**
 
 ```js
-import { MxCAD3DObject, Mx3dGePoint } from "mxcad"
+import { MxCAD3DObject, Mx3dGePoint } from "mxcad3d"
 ```
 
 ## Table of contents

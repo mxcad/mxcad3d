@@ -7,7 +7,7 @@ This module contains exports for 3D related applications, and all exported conte
 **`Example`**
 
 ```js
-import { MxCAD3DObject, Mx3dGePoint } from "mxcad"
+import { MxCAD3DObject, Mx3dGePoint } from "mxcad3d"
 ```
 
 ## Table of contents
