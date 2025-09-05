@@ -1,0 +1,19 @@
+{
+  "name": "test2dto3d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.3.5"
+  },
+  "dependencies": {
+    "mxcad": "^1.0.238",
+    "mxcad3d": "^1.0.1"
+  }
+}
