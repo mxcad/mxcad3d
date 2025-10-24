@@ -78,7 +78,7 @@ const autoSidebar:any = AutoSidebar({
 })
 export default defineConfig({
     title: 'mxcad3d',
-    base: '/mxcad_docs3d',
+    base: '/mxcad_docs3d/',
     ignoreDeadLinks: true,
     vite: {
         define: {
@@ -145,4 +145,4 @@ export default defineConfig({
             copyright: 'Copyright @ 2023 成都梦想凯德科技有限公司 Rights Reserved'
         },
     }
-})
+})  
