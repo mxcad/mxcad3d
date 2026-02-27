@@ -2,8 +2,6 @@
 
 > Contact Information: 710714273@qq.com
 
-![](https://www.webcadsdk.com/img/WX-Two-dimensional-code.png)
-
 Official Website: <https://www.webcadsdk.com/>
 
 ## Installation
